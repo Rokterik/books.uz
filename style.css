@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html body section.up-header {
+  overflow: hidden;
+}
+html body section.up-header img {
+  position: absolute;
+  top: 40px;
+  left: 10%;
+  width: 100px;
+  height: 100px;
+}
+html body section.up-header a {
+  position: absolute;
+  top: 80px;
+  text-decoration: none;
+  color: #000000;
+  left: 85%;
+  font-size: 20px;
+}
+html body section.header {
+  position: relative;
+  top: 200px;
+  left: 10%;
+  background-image: url(./img/back.png);
+  width: 80%;
+  height: 70vh;
+  background-size: cover;
+  margin-bottom: 20%;
+  overflow: hidden;
+}
+html body section.header p {
+  position: relative;
+  top: 15vh;
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  color: #494949;
+}
+html body section.about {
+  position: relative;
+  width: 90%;
+  left: 10%;
+  margin-bottom: 10%;
+  overflow: hidden;
+}
+html body section.about .text-col {
+  display: flex;
+  gap: 110px;
+}
+html body section.about .text-col div.text {
+  width: 330px;
+  height: 330px;
+  background: #C4C4C4;
+}
+html body section.about .text-col div.text h6 {
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 250px;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+html body section.about .text-col div.text p {
+  margin-left: 12%;
+  width: 239px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+}
+html body section.footer {
+  width: 100%;
+  height: 35vh;
+  background: #C4C4C4;
+  overflow: hidden;
+}
+html body section.footer img {
+  position: relative;
+  top: 80px;
+  left: 10%;
+}
+html body section.footer p {
+  position: relative;
+  left: 65%;
+}
+html body section.footer p.word {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+html body section.footer p.num {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
